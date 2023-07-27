@@ -1,0 +1,84 @@
+name: animation
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  
+  # notification
+  awesome_dialog: ^3.0.2
+  awesome_notifications: ^0.7.4+1
+
+  # device
+  camera: ^0.10.5
+  audioplayers: ^0.19.1
+  
+  cupertino_icons: ^1.0.2
+  
+  device_preview: ^1.1.0
+  # flutter bloC
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  # firebase
+  firebase_core: ^2.10.0
+  firebase_database: ^10.1.1
+  cloud_firestore: ^4.6.0
+  firebase_messaging: ^14.6.0
+  firebase_auth: ^4.6.1
+
+  flutter:
+    sdk: flutter
+  
+  # widgets
+  flutter_switch: ^0.3.2
+  ionicons: ^0.2.2
+  knob_widget: ^1.0.3
+  pinput: ^2.2.31
+
+  # http
+  http: ^0.13.6
+
+  # chart
+  syncfusion_flutter_charts: ^21.1.41
+  vibration: ^1.7.6
+  zoom_widget: ^2.0.1
+
+  # animation
+  animator: ^3.2.0
+  flutter_staggered_animations: ^1.1.1
+  curved_navigation_bar: ^1.0.3
+
+  # location
+  geolocator: ^9.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  
+  # test
+  mocktail: ^0.3.0
+
+  
+  
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/fire.mp3
+    - assets/smoke.mp3
+  fonts:
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf

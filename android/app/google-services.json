@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408820575975",
+    "project_id": "smart-90a5b",
+    "storage_bucket": "smart-90a5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408820575975:android:c9678e2f88fa2c79573c42",
+        "android_client_info": {
+          "package_name": "com.example.animation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408820575975-758ot0n94anqte9at9u5gd8mb2f4rg83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0GssdXuT9XupN925o1hijyiBt2-6TbCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408820575975-758ot0n94anqte9at9u5gd8mb2f4rg83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
